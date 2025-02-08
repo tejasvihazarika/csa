@@ -1,0 +1,46 @@
+/* General styling for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333; /* Dark background color */
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the list inside the navbar */
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Individual list items in the navbar */
+  .navbar ul li {
+    display: inline-block;
+  }
+  
+  /* Styling for the links in the navbar */
+  .navbar ul li a {
+    text-decoration: none;
+    color: white; /* White text */
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect for navbar links */
+  .navbar ul li a:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+    color: #f7cba0; /* Accent color for text on hover */
+  }
+  
+  /* Active link styling (if needed) */
+  .navbar ul li a.active {
+    background-color: #f7cba0;
+    color: #333;
+  }
+  

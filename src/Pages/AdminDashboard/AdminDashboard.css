@@ -1,0 +1,31 @@
+.admin-dashboard {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .admin-dashboard h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .admin-dashboard p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .admin-options button {
+    padding: 0.7rem 1.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-options button:hover {
+    background-color: #45a049;
+  }
+  

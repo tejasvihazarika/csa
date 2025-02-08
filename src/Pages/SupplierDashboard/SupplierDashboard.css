@@ -1,0 +1,31 @@
+.supplier-dashboard {
+    padding: 2rem;
+    background-color: #fefefe;
+    text-align: center;
+  }
+  
+  .supplier-dashboard h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .supplier-dashboard p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .supplier-options button {
+    padding: 0.7rem 1.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .supplier-options button:hover {
+    background-color: #E64A19;
+  }
+  
